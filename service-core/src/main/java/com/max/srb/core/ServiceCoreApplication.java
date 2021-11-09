@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Date 2021/9/13 16:23
  */
 @SpringBootApplication
-@ComponentScan({"com.max.srb"})
+@ComponentScan({"com.max.srb","com.max.common"})
 public class ServiceCoreApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceCoreApplication.class, args);
